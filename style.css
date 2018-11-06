@@ -1,0 +1,157 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+nav{
+    background-color:black;
+    height: 100px;
+    padding: 10px;
+    }
+
+
+
+
+header{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 20px;
+    overflow: hidden;
+}
+
+.navbar-brand{
+    float: left;
+    font: normal 40px/1.5 'Open Sans', sans-serif;
+    color:white;
+    margin: 0;
+}
+
+.navbar-brand:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: White;
+    text-align: left;
+    padding: 10px 16px;
+    border-radius: 2px;
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px;
+    line-height: 1;
+    outline: none;
+    transition: 0.2s ease;
+}
+.dropdown-item{
+    color: black;
+}
+ul li a.active{
+    color: #F05283;
+    text-decoration: underline;
+}
+
+ul li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+    color: #F05283;
+}
+
+
+ul li{
+    display: inline-block;
+}
+
+body{
+    font:14px/1.5 Arial, Helvetica, sans-serif;
+    margin:0;
+    height: 100%;
+    background-color: #efefef;
+}
+
+.post {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+#nav-select {
+    visibility: hidden;
+  }
+.row div{
+    background-color: none;
+    border: none;
+    height: auto;
+    padding: 20px;
+    color: black;
+    
+}
+
+.navbar-toggler{
+    visibility: hidden;
+}
+
+.additional-space{
+    margin-bottom: 6.5cm
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: none;
+    color: black;
+    text-align: center;
+}
+
+@media (max-width:767px) {
+        
+    .post {
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+    nav{
+        background-color:black;
+        height: 110px;
+        padding: 10px;
+        }
+    .navbar-toggler{
+        background-color:black;
+        color:white;
+        visibility: visible;
+        border: none;
+        margin: 25px;
+    }
+    .navbar-collapse {
+        border-color: black;
+        background-color: white;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: black;
+        text-align: left;
+        padding: 10px 16px;
+        border-radius: 2px;
+        opacity: 1;
+        font-size: 16px;
+        
+        margin: 4px;
+        line-height: 1;
+        outline: none;
+        transition: 0.2s ease;
+        
+    #nav-select {
+        visibility: visible;
+        }
+}
